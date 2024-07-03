@@ -1,7 +1,7 @@
 // Question #6: Calculating Total Price in User's Cart
 
 function filterInStockProducts(products) {
-  // เริ่มเขียนโค้ดตรงนี้
+  return products.filter(products => products.quantity);
 }
 
 // ตัวอย่างการใช้งาน
