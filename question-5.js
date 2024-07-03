@@ -2,7 +2,9 @@
 
 function calculateTotalPrice() {
   // เริ่มเขียนโค้ดตรงนี้
-}
+      return cart.reduce((acc, cur) => 
+        acc + (cur.price * cur.quantity), 0)
+    }
 
 // ตัวอย่างการใช้งาน
 
